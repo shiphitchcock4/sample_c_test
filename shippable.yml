@@ -14,7 +14,7 @@ branches:
     #- master
     #- branch*
     - "*ch-except"
-    #- branches_*
+    #- branches-*
 build:
   pre_ci:
     - echo 'true'
