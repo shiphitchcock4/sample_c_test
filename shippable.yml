@@ -6,8 +6,8 @@ compiler:
 matrix:
   include:
     - compiler: gcc
-  exclude:
-    - compiler: clang  
+  #exclude:
+   # - compiler: clang  
 build:
   pre_ci:
     - echo 'true'
