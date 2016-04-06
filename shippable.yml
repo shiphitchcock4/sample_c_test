@@ -10,6 +10,7 @@ matrix:
    # - compiler: clang
   allow_failures:
     - compiler: gcc
+      env: ship@=test
 
 build:
   pre_ci:
