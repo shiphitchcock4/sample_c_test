@@ -13,6 +13,7 @@ build:
   ci:
     - ./configure && make && make install
     - ./hello
+    - sleep 40
 
   post_ci:
     - echo "true"
