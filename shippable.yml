@@ -6,8 +6,8 @@ compiler:
 matrix:
   #include:
    # - compiler: clang
-  exclude:
-    - compiler: clang
+  #exclude:
+   # - compiler: clang
   allow_failures:
     - compiler: gcc
 
