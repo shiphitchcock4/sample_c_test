@@ -10,10 +10,10 @@ compiler:
    # - compiler: clang  
 branches:
   only:
-   #- branches-include
+    - branches-include
     #- master
     #- branches*
-    - "*ches-include"
+    #- "*ches-include"
     #- branches-*
 build:
   pre_ci:
