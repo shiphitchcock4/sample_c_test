@@ -1,6 +1,13 @@
 language: c
 
-compiler: clang
+compiler: 
+  - gcc
+  - clang
+matrix:
+  #include:
+   # - compiler: clang
+  exclude:
+    - compiler: clang
 
 build:
   pre_ci:
