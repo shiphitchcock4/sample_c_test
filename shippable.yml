@@ -12,8 +12,8 @@ branches:
   except:
     #- branches-except
     #- master
-    - branch*
-    #- "*ch-except"
+    #- branch*
+    - "*ch-except"
     #- branches_*
 build:
   pre_ci:
