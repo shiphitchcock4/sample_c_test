@@ -12,8 +12,8 @@ branches:
   only:
    #- branches-include
     #- master
-    - branches*
-    #- "*ch-include"
+    #- branches*
+    - "*ch-include"
     #- branches-*
 build:
   pre_ci:
