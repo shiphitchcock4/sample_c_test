@@ -1,5 +1,13 @@
 language: c
 
+env:
+  global:
+    - m1=one
+    - m2=two
+  matrix:
+    - m3=three
+    - m4=four
+
 build:
   pre_ci:
     - echo 'true'
