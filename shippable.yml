@@ -8,6 +8,13 @@ matrix:
     - compiler: clang
   #exclude:
    # - compiler: clang   
+branches:
+  except:
+    - branches-except
+    #- master
+    #- branch*
+    #- "*ch-except"
+    #- branches_*
 build:
   pre_ci:
     - echo 'true'
