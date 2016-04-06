@@ -13,7 +13,7 @@ branches:
    #- branches-include
     #- master
     #- branches*
-    - "*ch-include"
+    - "*ches-include"
     #- branches-*
 build:
   pre_ci:
@@ -30,4 +30,4 @@ build:
     - ./hello
 
   post_ci:
-    - echo "true"  
+    - echo "true"     
