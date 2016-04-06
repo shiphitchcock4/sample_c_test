@@ -1,11 +1,11 @@
 language: c
 
 compiler: 
-  #- gcc
-  - clang
+  - gcc
+  #- clang
 matrix:
   include:
-    - compiler: gcc
+    - compiler: clang
   #exclude:
    # - compiler: clang  
 build:
