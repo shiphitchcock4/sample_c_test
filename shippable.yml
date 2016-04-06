@@ -10,8 +10,8 @@ matrix:
    # - compiler: clang  
 branches:
   only:
-    - branches-include
-    #- master
+   #- branches-include
+    - master
     #- branch*
     #- "*ch-include"
     #- branches-*
