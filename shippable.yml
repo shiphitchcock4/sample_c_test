@@ -8,6 +8,8 @@ matrix:
    # - compiler: clang
   exclude:
     - compiler: clang
+  allow_failures:
+    - compiler: gcc
 
 build:
   pre_ci:
@@ -22,6 +24,7 @@ build:
   ci:
     - ./configure && make && make install
     - ./hello
+    - if [ "$SHIPPABLE_COMPILER_VERSION" == "gcc" ]; then foobar; fi
   
   post_ci:
     - echo "true"    
