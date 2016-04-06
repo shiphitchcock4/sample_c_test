@@ -11,8 +11,8 @@ matrix:
 branches:
   only:
    #- branches-include
-    - master
-    #- branch*
+    #- master
+    - branch*
     #- "*ch-include"
     #- branches-*
 build:
