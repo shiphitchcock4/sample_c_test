@@ -1,5 +1,9 @@
 language: c
 
+compiler: 
+  - gcc
+  - clang
+  
 env:
   global:
     - secure: nB2KVp5+EGzTYVNz+VEwHHoGXu5BegNzGeX1uic9SCDCf+OeHQz61NkgksFkO9VDpTDZUDrfvIWq9w5vm0yDoeL+vlFY4opODAH/5HcKacvIFlXQ5Sr8xiXyPetoVrj9xxXLTFqkezbMjg0poNkJzpx7bT2ItAVU4QJfkulS8szou68VuSunP3mG6fqOKM689lTteMbp0Wtlv2mOXIq5vcXgex+u87lY3BoqtYYY8qrQopZNulXdQZ0LjZejFNSIBR1o0LSFQkRbaFqUrlg3D6z7f7pqILFjm+qNVHtzM7vEika8raSIoNEpuPql80r5CMyejxic2KPQTsOUUYaPCQ==
