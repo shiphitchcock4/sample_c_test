@@ -7,7 +7,14 @@ matrix:
   include:
     - compiler: clang
   #exclude:
-   # - compiler: clang   
+   # - compiler: clang  
+branches:
+  only:
+    - branches-include
+    #- master
+    #- branch*
+    #- "*ch-include"
+    #- branches-*
 build:
   pre_ci:
     - echo 'true'
