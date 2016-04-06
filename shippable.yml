@@ -7,7 +7,7 @@ matrix:
   include:
     - compiler: clang
   #exclude:
-   # - compiler: clang  
+   # - compiler: clang   
 build:
   pre_ci:
     - echo 'true'
