@@ -14,7 +14,7 @@ build:
     - ./configure && make && make install
     - ./hello
 
-  post_ci:
+  post_ci:  
     - echo "true"
     
   cache: true
