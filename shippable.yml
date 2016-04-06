@@ -22,6 +22,6 @@ build:
   ci:
     - ./configure && make && make install
     - ./hello
-
+  
   post_ci:
     - echo "true"    
