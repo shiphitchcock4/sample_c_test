@@ -13,7 +13,7 @@ branches:
     #- branches-except
     #- master
     #- branch*
-    - "*ch-except"
+    - "*ches-except"
     #- branches-*
 build:
   pre_ci:
