@@ -13,8 +13,8 @@ branches:
     #- branches-except
     #- master
     #- branch*
-    #- "*ches-except"
-    - branches-*
+    - "*ches-except"
+    #- branches-*
 build:
   pre_ci:
     - echo 'true'
