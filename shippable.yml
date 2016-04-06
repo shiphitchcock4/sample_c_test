@@ -1,9 +1,13 @@
 language: c
 
 compiler: 
-  - gcc
+  #- gcc
   - clang
-
+matrix:
+  include:
+    - compiler: gcc
+  exclude:
+    - compiler: clang  
 build:
   pre_ci:
     - echo 'true'
