@@ -11,8 +11,8 @@ matrix:
 branches:
   except:
     #- branches-except
-    - master
-    #- branch*
+    #- master
+    - branch*
     #- "*ch-except"
     #- branches_*
 build:
