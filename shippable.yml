@@ -9,6 +9,12 @@ build:
     image_tag: prod
     pull: false
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
+    
+  post ci:
+    - docker build -t=shippabledocker/shiphitchcock4_sample_cpp .
+    - docker tag -f drydock/u12cpp:latest shippabledocker/shiphitchcock4_sample_cpp
+    - docker push shippabledocker/shiphitchcock4_sample_cpp:latest
+
 
   ci:
     - ./configure && make && make install
