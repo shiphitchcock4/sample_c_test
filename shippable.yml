@@ -13,7 +13,7 @@ build:
   post ci:
     - docker build -t=shippabledocker/shiphitchcock4_sample_cpp .
     - docker tag -f drydock/u12cpp:latest shippabledocker/shiphitchcock4_sample_cpp
-    - docker push shippabledocker/shiphitchcock4_sample_cpp:latest
+    - docker push shippabledocker/shiphitchcock4_sample_cpp
 
 
   ci:
